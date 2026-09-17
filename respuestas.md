@@ -70,3 +70,23 @@ FROM Products
 ![Resultado pregunta1](imagenes/preg3.png)
 
 **comentario** utilizo case when porque como nos pide indicar si critico o aviso segun el stock disponible y con where filtramos por su disponivilidad buscando solo porductos activos 
+
+### Pregunta 4 — Ficha completa de producto
+
+Marketing va a rehacer el catálogo impreso y necesita cada producto con su categoría y los datos de contacto de quien lo suministra.
+
+**Enunciado**
+Marketing va a rehacer el catálogo impreso y necesita cada producto con su categoría y los datos de contacto de quien lo suministra.
+
+Para los productos suministrados por empresas de **Italia, Francia o España**, muestra el nombre del producto, el nombre de la categoría, el nombre del proveedor, su país y su ciudad. Ordena por país y, dentro de cada país, por nombre de producto.
+
+**consulta**
+```
+
+```
+
+
+![Resultado pregunta1](imagenes/preg4.png)
+
+**comentario** 
+
