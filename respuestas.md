@@ -17,3 +17,4 @@ order by unit_price DESC;
 ![Resultado pregunta1](imagenes/preg1.png)
 
 **comentario**
+He utilizado where para filtrar primero por los prosuctos descatalogados y despues con el `between`filtro por los que estan en el rango que buscamos
