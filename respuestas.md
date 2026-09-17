@@ -44,3 +44,29 @@ ORDER BY
 
 **comentario** con count(customer_id) cuento todos los clientes que existen despues con count(distinct city ) cuento cuantas ciudades diferentes tienen registros de un mismo cliente mediante group by country se realiza una agrupacion de los resultados para que las funcines de conteo sirvan para cada pais y mediante having count filtramos para mostar solo aquellos con 5 o mas 
 
+
+### Pregunta 3 — Alerta de reposición
+
+Logística necesita detectar qué referencias están en riesgo de rotura de stock
+
+**Enunciado**
+Localiza los productos activos cuyas unidades en stock sean inferiores o iguales a su nivel de reposición. Muestra el nombre, las unidades en stock, el nivel de reposición, las unidades ya pedidas al proveedor y una columna de texto que indique 'CRÍTICO' cuando el stock sea 0 y 'AVISO' en el resto de casos.
+
+**consulta**
+```
+SELECT 
+    product_name AS producto,
+    units_in_stock AS stock,
+    reorder_level AS nivel_reposicion,
+    units_on_order AS pedido_a_proveedor,
+    CASE 
+		when units_in_stock = 0 THEN ' critico'
+		ELSE 'AVISO'
+	End as situacion
+FROM Products
+```
+
+
+![Resultado pregunta1](imagenes/preg3.png)
+
+**comentario** utilizo case when porque como nos pide indicar si critico o aviso segun el stock disponible y con where filtramos por su disponivilidad buscando solo porductos activos 
