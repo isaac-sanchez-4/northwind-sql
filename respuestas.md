@@ -14,6 +14,6 @@ order by unit_price DESC;
 ```
 
 
-![Resultado pregunta1](img/preg1.png)
+![Resultado pregunta1](imagenes/preg1.png)
 
 **comentario**
