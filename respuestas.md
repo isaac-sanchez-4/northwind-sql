@@ -693,7 +693,7 @@ ORDER BY cat.category_name ASC, pos.posicion_en_categoria ASC;
 
 **comentario** 
 
-
+con el uso de dense rank nos aseguramos de que no se produzcan saltos si algun valor empata el calculo se encapsula en una cte por no poder realizarse en el where
 
 ### Pregunta 19 — Evolución mensual con acumulado y media móvil
 
