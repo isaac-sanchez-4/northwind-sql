@@ -318,7 +318,7 @@ ORDER BY pais ASC;
 ![Resultado pregunta1](imagenes/preg10.png)
 
 **comentario** 
-
+utilizamos un full join con la agrupado previamente para obtener todos los paises sin importar si solo ahi cientes o provedores con coalesce conseguimos recuperar el nombre del pais
 
 
 ### Pregunta 11 — Directorio unificado de contactos
@@ -371,6 +371,7 @@ ORDER BY origen ASC, pais ASC;
 
 **comentario** 
 
+con el uso de union all unimos los tres bloques que hemos creado ademas de hacer que todo el formato sea comun con el metodo upper 
 
 
 
@@ -411,7 +412,7 @@ ORDER BY pais;
 
 **comentario** 
 
-
+con el uso de except filtramos los paises que solo estan en el primer grupo y con intersect buscamos las coincidencias entre ambos limpiando ademas los duplicados 
 
 
 ### Pregunta 13 — Clientes que nunca han comprado pescado
@@ -485,7 +486,7 @@ ORDER BY diferencia DESC;
 
 **comentario** 
 
-
+con el uso de una subconsulta escalar podemos obtener , mostar y calcular la media del catalog de forma directa en el select  where gracias al filtro aplicado en discontinued=0 podemos hacer un correcto filtrado 
 
 
 ### Pregunta 15 — Ticket medio por cliente
