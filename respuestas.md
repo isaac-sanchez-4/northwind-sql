@@ -237,7 +237,7 @@ ORDER BY responsable ASC, empleado ASC;
 ![Resultado pregunta1](imagenes/preg8.png)
 
 **comentario** 
-
+utilizo un left join sobre si misma para vincular los empleados a su superior esto permite que en caso de que este vacio alguno de los campos siga siendo mostrado en el resultado 
 
 ### Pregunta 9 — Rejilla de cobertura categoría × año
 
@@ -276,7 +276,7 @@ ORDER BY c.category_name ASC, periodos.anio ASC;
 
 **comentario** 
 
-
+con el uso de un cross join se crea una matriz en la que estan presentes todas las conbinaciones de años con categoria y cin el uso del left join guardamos tambien los periodos en los que no hay facturacion 
 
  ### Pregunta 10 — Mapa de países: clientes frente a proveedores
 
