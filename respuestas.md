@@ -530,7 +530,7 @@ LIMIT 15;
 ![Resultado pregunta1](imagenes/preg15.png)
 
 **comentario** 
-
+para esta consulta era necesario anidar las agrupaciones primero smando el importe de cada pedido en una tabla y despues en la pricipal calculamos el pormedio por cada cliente 
 
 
 
@@ -576,7 +576,7 @@ ORDER BY cat.category_name ASC;
 
 **comentario** 
 
-
+Con las subconsultas correlacionadas vinculamos la tabla principal a través del category_id permitiendo recalcular la media y el máximo de forma dinámica obteniendo cada producto con sus limites 
 
 ### Pregunta 17 — Segmentación ABC de la cartera de clientes
 
@@ -636,7 +636,7 @@ ORDER BY facturacion_segmento DESC;
 
 **comentario** 
 
-
+Mediante una cte encadenada y podemos segmentar lal consulta separandolo en cuartos en base a la facturacion
 
 
 ### Pregunta 18 — Los tres productos más vendidos de cada categoría
