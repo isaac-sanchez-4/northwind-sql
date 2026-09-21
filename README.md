@@ -45,5 +45,5 @@ A continuación se muestra el diagrama ER generado en la Parte 1 de la práctica
 
 
 Índice
-![Readme](./Respuestas.md)
+![Readme](./respuestas.md)
 
