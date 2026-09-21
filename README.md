@@ -41,9 +41,8 @@ Desde pgAdmin:
 ## Diagrama ER
 A continuación se muestra el diagrama ER generado en la Parte 1 de la práctica:
 
-![Diagrama ER de Northwind](./imagenes/diagrama.png)
+![Diagrama ER de Northwind](./imagenes/diagrapgerd.png)
 
-
-##Índice
-![Readme](./respuestas.md)
+## Índice
+[Índice de respuestas](./respuestas.md)
 
